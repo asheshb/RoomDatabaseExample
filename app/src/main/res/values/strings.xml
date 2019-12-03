@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Room Database Example</string>
+
+    <string name="save_task">Save</string>
+    <string name="delete_task">Delete</string>
+    <string name="priority">Priority</string>
+    <string name="status_label">Status</string>
+    <string name="status_open">Open</string>
+    <string name="status_closed">Closed</string>
 </resources>
