@@ -1,7 +1,8 @@
-package com.example.roomdatabaseexample
+package com.example.roomdatabaseexample.data
 
 import android.app.Application
 import androidx.lifecycle.LiveData
+import com.example.roomdatabaseexample.data.*
 
 
 class TaskListRepository(context: Application){

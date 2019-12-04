@@ -1,7 +1,9 @@
-package com.example.roomdatabaseexample
+package com.example.roomdatabaseexample.ui
 
 import android.app.Application
 import androidx.lifecycle.*
+import com.example.roomdatabaseexample.data.Task
+import com.example.roomdatabaseexample.data.TaskDetailRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 

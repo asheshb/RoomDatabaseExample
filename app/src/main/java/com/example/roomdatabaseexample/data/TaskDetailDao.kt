@@ -1,7 +1,8 @@
-package com.example.roomdatabaseexample
+package com.example.roomdatabaseexample.data
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
+import com.example.roomdatabaseexample.data.Task
 
 @Dao
 interface TaskDetailDao{

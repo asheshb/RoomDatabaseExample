@@ -1,7 +1,10 @@
-package com.example.roomdatabaseexample
+package com.example.roomdatabaseexample.data
 
 import android.app.Application
 import androidx.lifecycle.LiveData
+import com.example.roomdatabaseexample.data.Task
+import com.example.roomdatabaseexample.data.TaskDatabase
+import com.example.roomdatabaseexample.data.TaskDetailDao
 
 class TaskDetailRepository(context: Application){
     private val taskDetailDao: TaskDetailDao = TaskDatabase.getDatabase(context).taskDetailDao()
