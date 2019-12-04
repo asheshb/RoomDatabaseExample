@@ -7,4 +7,6 @@
     <string name="status_label">Status</string>
     <string name="status_open">Open</string>
     <string name="status_closed">Closed</string>
+    <string name="enter_task_title">Enter task title</string>
+    <string name="enter_task_detail">Enter task detail</string>
 </resources>
