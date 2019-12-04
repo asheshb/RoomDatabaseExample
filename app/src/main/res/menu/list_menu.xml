@@ -6,9 +6,9 @@
         <item
             android:checked="true"
             android:id="@+id/menu_sort_priority"
-            android:title="Sort by Priority" />
+            android:title="@string/sort_by_priority" />
         <item
             android:id="@+id/menu_sort_title"
-            android:title="Sort by Title" />
+            android:title="@string/sort_by_title" />
     </group>
 </menu>
