@@ -28,9 +28,9 @@ class TaskDetailViewModel(application: Application): AndroidViewModel(applicatio
     }
 
     fun saveTask(task: Task){
-        viewModelScope.launch(Dispatchers.IO) {
+        viewModelScope.launch {
             if (_taskId.value == 0L) {
-                _taskId.postValue(repo.insertTask(task))
+                _taskId.value = repo.insertTask(task)
             } else {
                 repo.updateTask(task)
             }
@@ -38,7 +38,7 @@ class TaskDetailViewModel(application: Application): AndroidViewModel(applicatio
     }
 
     fun deleteTask(){
-        viewModelScope.launch(Dispatchers.IO) {
+        viewModelScope.launch {
             task.value?.let { repo.deleteTask(it) }
         }
     }
